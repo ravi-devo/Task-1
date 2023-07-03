@@ -1,0 +1,17 @@
+Difference between HTTP1.1 and HTTP2
+
+What is HTTP?
+
+	Hyper Text Transfer Protocol is a application protocol that exchanges the information between a client and a server. It is used to send a request to the server (requesting for the information) and server sends the response in the form of HTML page to the client.
+
+
+How HTTP1.1 is different from HTTP2?
+
+	HTTP1.1										HTTP2
+
+1. It works on the plain text format.					1. It works on the binary protocol.
+2. It loads resources one after the other, so				2. It is able to use single TCP connection to send multiple
+one resource is not loaded it blocks all resources		streams of data. So, no resources are blocked.
+behind it.
+3. The first usable version of HTTP was created			3. It is the new version of HTTP which introduced in 2015.
+in 1997 and it is called HTTP1.1

@@ -1,0 +1,18 @@
+Object and it's internal representation:
+
+	Object hold many values in the form of Key:Value pair. These keys can be of variables or functions and are called properties and methods in the context of an object. Objects are unlike the primitive data types where it can only hold one value.
+
+Every object has some property associated with some values in it. It can be called with it's property name.
+
+For example here we can have bike:
+
+let myBike = {make: "Bajaj", model: "Pulsar NS 200", year: 2009};
+
+the value of the myBike variable can be accessed using key.
+
+console.log(myBike.make); //Output: Bajaj
+console.log(myBike.year); //Output: 2009
+
+These values can be acccessed using brackets also.
+
+console.log(myBike[make]); //Output: Bajaj
